@@ -1,0 +1,24 @@
+.terms{
+    width: 100%;
+    min-height: calc(100vh - 485px);
+    border-top: 1px solid #223f53;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.terms__inner{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 70px;
+}
+.terms__inner h1{
+    font-size: 28px;
+    font-family: "Montserrat", serif;
+}
+.terms__inner p{
+    font-size: 18px;
+    margin-top: 20px;
+}
+.terms__inner p span{
+    font-weight: 700;
+}

@@ -1,0 +1,119 @@
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background-color: white;
+}
+.navbar__box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.navbar__logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+}
+.navbar__logo a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.navbar__links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 30px;
+}
+.navbar__links li{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.navbar__links li a,
+.navbar__links li button{
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #223f53;
+    width: 100%;
+}
+.navbar__links li a.active,
+.navbar__links li button.active{
+    color: #ff8f00;
+}
+.navbar__links li button i{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    margin-left: 5px;
+    margin-top: -2px;
+}
+.navbar__nested-links{
+    width: 100%;
+    position: absolute;
+    top:40px;
+    left: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    background: white;
+    z-index: 1;
+}
+.navbar__nested-links li{
+    padding: 10px 15px;
+    width: 100%;
+    align-items: flex-start;
+}
+.navbar__actions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 25px;
+}
+.navbar__wishlist{
+    font-size: 28px;
+    color: #223f53;
+    cursor: pointer;
+    position: relative;
+}
+.navbar__cart{
+    font-size: 28px;
+    color: #223f53;
+    cursor: pointer;
+    position: relative;
+}
+.navbar__quantity{
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #ffa8a8;
+    font-size: 14px;
+    line-height: 1;
+    top: -10px;
+    right: -14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+}
+.navbar__wishlist.active,
+.navbar__cart.active{
+    color: #ff8f00;
+}
+.navbar__wishlist.active .navbar__quantity,
+.navbar__cart.active .navbar__quantity{
+    background-color: #223f53;
+    color: white;
+}

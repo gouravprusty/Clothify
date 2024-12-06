@@ -1,0 +1,114 @@
+.buy_product{
+    width: 100%;
+    min-height: calc(100vh - 531px);
+    padding: 60px 0;
+    display: flex;
+    justify-content: center;
+}
+.buy_inner{
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.buy_inner__left{
+    width: 47%;
+    display: flex;
+    justify-content: space-between;
+}
+.buy__left_list{
+    width: 18%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.buy__left_img{
+    width: 79%;
+}
+.buy__left_img img{
+    width: 100%;
+}
+.buy_inner__right{
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.buy__right_name{
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    line-height: 1.4;
+    font-weight: 600;
+    color: #223f53;
+}
+.buy__right_tags{
+    margin-top: 10px;
+    font-size: 18px;
+}
+.buy_right_stars{
+    font-size: 20px;
+    color: gold;
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 5px;
+    margin-top: 30px;
+}
+.buy_right_stars i:last-child{
+    color: #d5d5d5;
+}
+.buy__right_prices{
+    margin-top: 45px;
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+.buy__old_price{
+    color:#959292;
+    position: relative;
+}
+.buy__old_price::after{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -5px;
+    right: -5px;
+    height: 2px;
+    background-color: red;
+    transform: rotate(-9deg);
+}
+.buy__size_head{
+    margin-top: 40px;
+    font-size: 20px;
+}
+.buy__size_btns{
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 10px;
+    margin-top: 15px;
+}
+.buy__size_btns p{
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    border: 1px solid #223f53;
+    background-color:#e9e9e9;
+    padding: 10px 25px;
+    cursor: pointer;
+}
+.buy__button{
+    margin-top: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    background-color: #f0a500;
+    padding: 10px 25px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+.buy__button:hover{
+    background-color: #223f53;
+    color: white;
+}

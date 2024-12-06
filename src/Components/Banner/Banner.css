@@ -1,0 +1,51 @@
+.banner{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,168,168,1) 100%);
+}
+.banner_inner{
+    display: flex;
+}
+.banner__left{
+    width: 60%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.banner__left h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    line-height: 1.4;
+    width: 70%;
+    color: #223f53;
+}
+.banner__left h1{
+    font-family: "Montserrat", sans-serif;
+    font-size: 35px;
+    line-height: 1.4;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.banner__left button{
+    margin-top: 50px;
+    background-color: #223f53;
+    padding: 10px 25px 13px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+    border: 2px solid #223f53;
+}
+.banner__left button:hover{
+    background-color: #fff;
+    color: #223f53;
+    font-weight: 600;
+}
+.banner__right{
+    width: 40%;
+}

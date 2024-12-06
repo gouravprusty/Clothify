@@ -1,0 +1,21 @@
+.policy-page{
+    width: 100%;
+    min-height: calc(100vh - 497px);
+    border-top: 1px solid #223f53;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.policy__inner{
+    display: flex;
+    flex-direction: column;
+    padding: 40px 70px;
+}
+.policy__inner h1{
+    font-size: 28px;
+    font-family: "Montserrat", serif;
+}
+.policy__inner p{
+    font-size: 18px;
+    margin-top: 20px;
+}
